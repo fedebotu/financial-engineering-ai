@@ -1,4 +1,4 @@
-# 📑 Financial Engineering AI Projects
+# 💸 Financial Engineering AI Projects
 
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
@@ -18,9 +18,9 @@ We want to predict Samsung's adjusted closing stock price for 2019-2020 with dat
 Moreover, we predict the latest Microsoft and Tesla stocks: the latter is particularly difficult given the new skyrocketing of this Elon Musk's company.
 
 <p align="center">
-  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_market_prediction/images/samsung_all.jpg" alt="Samsung stocks all period" >
+  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_market_prediction/images/samsung_all.jpg" alt="Samsung stocks all period" width=600px>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_market_prediction/images/samsung_test.jpg" alt="Samsung stocks test data" >
+  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_market_prediction/images/samsung_test.jpg" alt="Samsung stocks test data" width=600px >
 </p>
