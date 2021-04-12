@@ -9,18 +9,18 @@ This repository collects projects for the course IE471 "Introduction to Financia
 
 ## 🗂 Contents
 Here is the list of projects:
-1. Stock market prediction
+1. Stock price prediction
+2. Stock price prediction with sentiment analysis
 
-All the projects contain a report and its source code as well. If you would like to contribute to make them better, feel free to raise an `Issue` or to contribute with a `Pull Request`!
-
-## 📈 Stock market prediction
+## 📈 Stock Price Prediction
 We want to predict Samsung's adjusted closing stock price for 2019-2020 with data observations from 2000 to 2018. We experiment with LSTM and GRU models.
 Moreover, we predict the latest Microsoft and Tesla stocks: the latter is particularly difficult given the new skyrocketing of this Elon Musk's company.
 
 <p align="center">
-  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_market_prediction/images/samsung_all.jpg" alt="Samsung stocks all period" width=600px>
+  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_price_prediction/images/samsung_all.jpg" alt="Samsung stocks all period" width=600px>
 </p>
 
-<p align="center">
-  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_market_prediction/images/samsung_test.jpg" alt="Samsung stocks test data" width=600px >
-</p>
+## 😃 Stock Price Prediction with Sentiment Analysis
+
+
+All the projects contain a report and its source code as well. If you would like to contribute to make them better, feel free to raise an `Issue` or to contribute with a `Pull Request`!
