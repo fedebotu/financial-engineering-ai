@@ -2,10 +2,31 @@ import torch; import torch.nn as nn
 from torch import sin, pow
 from torch.nn import Parameter
 from torch.distributions.exponential import Exponential
+import twint
 
-# Pulled request merged in https://github.com/EdwardDixon/snake 
+# Data scraping
+# Follow instructions here https://github.com/twintproject/twint/issues/1165
+# and here https://github.com/twintproject/twint/issues/960
+import twint # for collecting twitter data
+import nest_asyncio
+nest_asyncio.apply()
+
+def get_tweets(start_date, end_date, company_name, company_ticker, lang='en', hide_output=True):
+    c = twint.Config()
+    c.Search = company_name, company_ticker
+    c.Since = start_date
+    c.Until = end_date
+    c.Store_csv = True
+    c.Lang = lang
+    c.Count = True
+    c.Hide_output = hide_output
+    c.Format = "id: {id} | date: {date} | tweet: {tweet} | retweets_count: {retweets}"
+    c.Custom['tweet'] = ['id', 'date', 'tweet', 'retweets_count']
+    c.Output = 'data/' + company_name + '_data.csv'
+    twint.run.Search(c)
+
+# Pull request merged in https://github.com/EdwardDixon/snake 
 # From https://github.com/Juju-botu/snake
-
 class Snake(nn.Module):
     '''         
     Implementation of the serpentine-like sine-based periodic activation function
