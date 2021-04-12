@@ -21,6 +21,9 @@ Moreover, we predict the latest Microsoft and Tesla stocks: the latter is partic
 </p>
 
 ## 😃 Stock Price Prediction with Sentiment Analysis
+We want to predict stock prices with the help of _sentiment analysis_ based on Twitter data. In particular, we predict Tesla, Inc. adjusted closing stock price in the last quarter of 2020  using data from the first three quarters of 2020. We also repeat the experiment with Nvidia and experiment with different recurrent architectures: RNN, GRU and LSTM.
 
-
+<p align="center">
+  <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_price_prediction_with_sentiment_analysis/images/wordcloud_tesla.png" alt="Word cloud of Tesla-related words on Twitter" width=600px>
+</p>
 All the projects contain a report and its source code as well. If you would like to contribute to make them better, feel free to raise an `Issue` or to contribute with a `Pull Request`!
