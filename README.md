@@ -14,7 +14,7 @@ Here is the list of projects:
 
 ## 📈 Stock Price Prediction
 We want to predict Samsung's adjusted closing stock price for 2019-2020 with data observations from 2000 to 2018. We experiment with LSTM and GRU models.
-Moreover, we predict the latest Microsoft and Tesla stocks: the latter is particularly difficult given the new skyrocketing of this Elon Musk's company.
+We also predict the latest Microsoft and Tesla stock price: the latter is particularly difficult given the recent surge in popularity of Elon Musk's company.
 
 <p align="center">
   <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_price_prediction/images/samsung_all.jpg" alt="Samsung stocks all period" width=600px>
