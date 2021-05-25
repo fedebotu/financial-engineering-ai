@@ -1,3 +1,7 @@
-lightning-logs/
+
 .ipynb_checkpoints/
 lightning_logs/
+wandb/
+catboost_info/
+
+__pycache__
