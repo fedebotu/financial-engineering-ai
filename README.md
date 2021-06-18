@@ -26,6 +26,7 @@ We want to predict stock prices with the help of _sentiment analysis_ based on T
 <p align="center">
   <img src="https://github.com/Juju-botu/financial-engineering-ai/blob/master/stock_price_prediction_with_sentiment_analysis/images/wordcloud_tesla.png" alt="Word cloud of Tesla-related words on Twitter" width=600px>
 </p>
+
 ## 📊 Clustering Bank Customers and Predicting their Loan Status
 The goal of this project is to cluster bank customers to obtain information about the major correlations about their information, such as previous credit history, job, age and so on. Then, we predict their loan status by using Boosting algorithms such as XGBoost and show the results with XAI (Explainable AI).
 
